@@ -1,0 +1,78 @@
+:root
+{
+--azul: #3396ff;
+--blanco: #ffffff;
+--negro: #212121;
+--gris: #757575;
+--celeste: #33caff;
+}
+/*custom properties - Para cambiar color/fuente general solo debo modificarlo aqui*/
+
+
+html
+{
+font-size: 62.5%;
+}
+
+body
+{
+    font-size: 16px;
+    font-family: 'Krub', sans-serif;
+}
+
+/*esto sirve para que se adapte bien a cualquier pantalla*/
+
+.titulo
+ {
+    text-align: center;
+    font-size: 3.8rem;
+    color: var(--azul);
+    font-weight: 600;
+    
+}
+
+.subtitulo
+{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.contenedor
+{
+width: 120rem;
+/*
+margin-top: 0;
+margin-right: auto;
+margin-bottom: 0;
+margin-left: auto;
+*/ /*Se puede ahorrar con lo de abajo, en forma de reloj*/
+margin: 0 auto 0 auto;
+}
+
+.nav-bg
+{
+    background-color: var(--azul);
+}
+
+.navegacion-principal
+{
+    
+    display: flex;
+
+    justify-content: space-evenly;
+}
+
+.navegacion-principal a
+{
+    color: var(--blanco);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 1rem;
+    
+}
+
+.navegacion-principal a:hover
+{
+    background-color: var(--celeste); 
+    color: var(--negro);
+}
